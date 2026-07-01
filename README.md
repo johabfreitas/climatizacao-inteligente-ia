@@ -8,7 +8,7 @@ O sistema utiliza a API do **Roboflow** com o modelo pré-treinado no dataset CO
 
 - **Python 3.12**
 - **Roboflow Python SDK**: Para inferência da detecção de objetos (pessoas).
-- **Gradio (Blocks)**: Para a interface web (suporta upload de fotos ou transmissão de webcam).
+- **Gradio (Blocks)**: Para a interface web (suporta upload de fotos ou transmissão de webcam(várias marcas)).
 - **OpenCV**: Para desenhar e renderizar as caixas delimitadoras e etiquetas nas pessoas detectadas.
 - **Python Dotenv**: Para gerenciamento seguro da chave secreta `ROBOFLOW_API_KEY`.
 
