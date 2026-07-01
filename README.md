@@ -32,7 +32,7 @@ O comportamento do atuador do ar condicionado é alterado em tempo real de acord
 ### 1. Clonar ou Acessar o Diretório do Projeto
 Certifique-se de que está no diretório correto do workspace:
 ```bash
-cd /home/johab/antigravity-workspace/climatizacao-inteligente-ia
+cd /home/usuario/antigravity-workspace/climatizacao-inteligente-ia
 ```
 
 ### 2. Criar e Ativar o Ambiente Virtual
