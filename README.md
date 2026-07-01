@@ -1,14 +1,3 @@
----
-title: Climatizacao Inteligente AI
-emoji: 🏢
-colorFrom: blue
-colorTo: status
-sdk: gradio
-sdk_version: 4.19.2
-app_file: app.py
-pinned: false
----
-
 # Climatização Inteligente por IA (Automação Residencial e Predial)
 
 Este projeto consiste em um protótipo de automação residencial/predial desenvolvido em Python que utiliza Visão Computacional para monitorar a quantidade de pessoas presentes em um ambiente e ajustar dinamicamente o estado e temperatura ideal do ar condicionado.
