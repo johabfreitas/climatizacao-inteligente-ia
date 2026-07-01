@@ -7,7 +7,6 @@ import config
 import detector
 import ac_control
 
-theme = gr.themes.Default()
 
 # Função para inicializar o HTML do painel vazio
 def get_initial_dashboard():
@@ -196,7 +195,7 @@ h1, h2, h3 {
 }
 """
 
-with gr.Blocks(css=custom_css, title="Climatização Inteligente IA") as demo:
+with gr.Blocks(theme='JohnSmith9982/small_and_pretty', css=custom_css, title="Climatização Inteligente IA") as demo:
     # Cabeçalho da Aplicação com visual premium
     gr.HTML("""
     <div style="
@@ -334,11 +333,4 @@ with gr.Blocks(css=custom_css, title="Climatização Inteligente IA") as demo:
     )
 
 if __name__ == "__main__":
-    # Script JS que força o navegador a renderizar o Gradio em modo claro
-    forcar_modo_claro = """
-    () => {
-        document.body.classList.remove('dark');
-        document.documentElement.classList.remove('dark');
-    }
-    """
-    demo.launch(server_name="0.0.0.0", server_port=7860, js=forcar_modo_claro)
+    demo.launch(server_name="0.0.0.0", server_port=7860)
